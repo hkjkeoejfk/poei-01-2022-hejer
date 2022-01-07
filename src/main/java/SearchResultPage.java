@@ -7,4 +7,8 @@ public class SearchResultPage {
         this.driver = driver;
 
     }
+
+    public void openResult(){
+
+    }
 }
