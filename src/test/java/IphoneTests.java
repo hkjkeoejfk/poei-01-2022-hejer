@@ -35,6 +35,13 @@ public class IphoneTests {
     public void teardown() {
         driver.quit();
     }
+
+    @Test
+    public void passedTest() {
+        MainPage mainPage = new MainPage(driver);
+
+        Assert.assertTrue(true);
+    }
     @Test
     public void Iphone13ProAddToCartTests() throws InterruptedException {
 
